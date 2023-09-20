@@ -19,4 +19,10 @@ public class Car {
 	public static void main(String[] args){
 	System.out.println("yeah");	
 	}
+	public Car(String color, String brand) {
+		super();
+		this.color = color;
+		this.brand = brand;
+	}
+	
 }
